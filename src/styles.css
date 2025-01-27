@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: beige;
+}
+.main_container {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.plus_btn {
+  background-color: greenyellow;
+  width: 35px;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.sub_btn {
+  background-color: orangered;
+  width: 35px;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.reset_btn {
+  background-color: gainsboro;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin: auto;
+}
+.number {
+}
